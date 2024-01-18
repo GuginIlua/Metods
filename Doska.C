@@ -9,7 +9,7 @@ int main(){
                	};
 		if(i%2==0)
                 	printf("#");
-		if(i%2!=0)
+		else
                 	printf("_");
 	};
 	printf("\n");
