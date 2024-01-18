@@ -6,6 +6,7 @@ int main(){
         double a;
         double b;
         double c;
+	double e;
 	double x0;
         double x;
         double x1;
@@ -37,13 +38,14 @@ int main(){
 	d1=t2-t1;
 	d=d1-d0;
 	for(int i=0;i<98;i++){
-		t=t2+d0+d;
+		t=t2+d1+d;
 		x=i+3;
-		d0=t-t2;
+		e=a*x*x+b*x+c;
+		d1=t-t2;
 		t2=t;
-		printf("t(%f)=%f\n",x,t2);
+		printf("t(%f)=%f  %f\n",x,t2,e);
 	}
 	return 0;
 }
-		
-	
+
+
